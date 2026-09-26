@@ -1,14 +1,32 @@
-node_modules/
-.env
-.env.*
-*.log
+# Python
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
-Thumbs.db
-.DS_Store
-.vscode/
-.idea/
+.venv/
+ENV/
+
+# Scratch & test outputs
+*.json
+!package*.json
+!tsconfig*.json
+!components.json
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Frontend
+node_modules/
 dist/
 build/
+.next/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
